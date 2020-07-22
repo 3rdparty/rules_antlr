@@ -1,7 +1,7 @@
-diff --git a/runtime/Cpp/runtime/src/support/Any.h b/runtime/Cpp/runtime/src/support/Any.h
+diff --git runtime/Cpp/runtime/src/support/Any.h runtime/Cpp/runtime/src/support/Any.h
 index 5db59f6..60699f9 100644
---- a/runtime/Cpp/runtime/src/support/Any.h
-+++ b/runtime/Cpp/runtime/src/support/Any.h
+--- runtime/Cpp/runtime/src/support/Any.h
++++ runtime/Cpp/runtime/src/support/Any.h
 @@ -117,21 +117,9 @@ private:
  
      T value;
