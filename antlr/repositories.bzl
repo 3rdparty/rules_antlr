@@ -306,6 +306,7 @@ def _antlr4_dependencies(version, languages, dependencies):
             sha256 = archive["sha256"],
             strip_prefix = archive["prefix"],
             url = archive["url"],
+            patches = archive["patches"] if "patches" in archive else [],
             build_file_content = build_script,
             workspace_file_content = workspace,
         )
