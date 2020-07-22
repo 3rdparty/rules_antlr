@@ -14,16 +14,19 @@ PACKAGES = {
             "url": "https://github.com/antlr/antlr4/archive/4.8.tar.gz",
             "prefix": "antlr4-4.8",
             "sha256": "992d52444b81ed75e52ea62f9f38ecb7652d5ce2a2130af143912b3042a6d77e",
+            "patches": ["@rules_antlr//third_party:antlr4_any.patch"],
         },
         "4.7.2": {
             "url": "https://github.com/antlr/antlr4/archive/4.7.2.tar.gz",
             "prefix": "antlr4-4.7.2",
             "sha256": "46f5e1af5f4bd28ade55cb632f9a069656b31fc8c2408f9aa045f9b5f5caad64",
+            "patches": ["@rules_antlr//third_party:antlr4_any.patch"],
         },
         "4.7.1": {
             "url": "https://github.com/antlr/antlr4/archive/4.7.1.tar.gz",
             "prefix": "antlr4-4.7.1",
             "sha256": "4d0714f441333a63e50031c9e8e4890c78f3d21e053d46416949803e122a6574",
+            "patches": ["@rules_antlr//third_party:antlr4_any.patch"],
         },
         "3.5.2": {
             "url": "https://github.com/marcohu/antlr3/archive/master.tar.gz",
